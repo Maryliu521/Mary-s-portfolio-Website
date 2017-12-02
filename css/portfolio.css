@@ -1,16 +1,18 @@
 
-.navbar-collapse {
-font-size: 25px;
+ .nav-link {
+font-size: 20px;
 font-family:roboto;
 }
-  
 #name {
 	color: #fff;
 	font-family:  "Courier New", Courier, monospace;
-	font-size: 40px;
+	font-size: 30px;
 	
 }
-.display-3 {
+#welcome{
+	width: 100px;
+}
+.display-4 {
 	font-family: script;
 	font-weight: 600;
 	color: #000;
@@ -41,27 +43,49 @@ font-family:roboto;
   box-shadow: 5px 2px 3 px rgba(0,0,1,0.5);
   }
   #skills {
-	  margin: 10% auto;
-	 text-align:center;
+	  margin: 5% auto;
+	   text-align:center;
+	
   }
+  
+  	h5 {
+		color: darkblue;
+		/*margin-top: 5;*/
+		font-family:roboto;
+		float:left;
+		width: 100px;
+	  text-align: center;
+	}
  
   .img-thumbnail {
 	  position: relative;
 	  margin-bottom: 1em;
 	  overflow: hidden;
-	  border-radius: 8px;
-	  padding: 1px;
+	  border-radius: 8px; 
+	  padding: 1px; 
 	  border: 1px solid #021a40;
 	  box-shadow: 2px 2px 10px 0 lightblue;
+	  width: 100px;
+	  height: 100px;
   }
 	 
 button {
-      margin: 2% auto;
+      margin: 2% auto; 
+	  width:80px;
+	  height:30px;
+
+	  
 }
 #experience {
 	margin: 10% auto;
 	
 }
+#hide {
+	width: 120px;
+
+}
+
+
 .card-group {
 	padding:40px;
 	border-radius:10px;
@@ -78,23 +102,52 @@ button {
 	    box-shadow: 1px 1px 5px 0 rgba(0, 0, 1,.7);
 		size: 50px;
 		
-}
-	
-	h3 {
-		color: darkblue;
-		margin-top: 5;
-		font-family:roboto; 
-		font-size:30px;
 	}
+	/*.card-text{
+		
+     display:none;
+	}*/
+		
+.item{
+	vertical-align:top;
+	display: inline-block;
+	text-align:center;
+	width:120px;
+
+}
+.square{
+	border-radius: 8px;
+	border: 2px solid darkblue;
+	 box-shadow: 1px 1px 5px 0 rgba(0, 0, 1,.7);
+	 display:block;
+	 margin:0 auto;
+	 width:100px;
+	 height:100px;
+}
+.btn2{
+	display:block;
+}
+
+/*#nav{
+	text-align:justify;
+	width: 100px;
+	font-size:20px;
+}*/
+	
 	
 	p {
 	  font-family: sans serif;
 	  font-weight: 500;
 	  line-height: 40px;
-	  font-size: 30px;
+	  font-size: 25px;
 	  color:darkblue;
 	  padding-left: 20px;
 	  
+	}
+	span {
+		width: 80%;
+	
+		float: right;
 	}
 	h2 {
 		padding-top: 20px;
@@ -126,6 +179,10 @@ button {
 	fshadow:2px;
 	color:#000;
 }
+#love{
+	width:150px;
+	
+}
 	
 .photo-container {
 	  text-align: center;
@@ -148,6 +205,11 @@ width:200px;
 	margin:10% auto;
 	
 	}
+.btn1{
+	width:100px;
+	height:30px;
+	border-radius:8px;
+}
 			
 	h5 {
 		text-align: right;
