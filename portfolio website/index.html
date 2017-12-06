@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <title>Mary's Portfolio Website</title><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/portfolio.css">
+	<!-- make "Software Fun" dynamic -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	 $(".display-4").on({
+	 mouseenter:function(){
+	    $(this).css("color","#fff");
+		},
+		 mouseleave:function(){
+	    $(this).css("color","#000");
+		}
+		});
+		});
+		</script>
+		<!-- put buttons on section Experience, hide || show -->
+	<script>
+			$(document).ready(function(){
+			$("#hide").click(function(){
+				$("li").toggle(1000);
+			});
+		
+			});
+   </script>
+
+     <script>
+    $(document).ready(function(){
+    $("#welcome").click(function(){
+        $("#name").css("color", "red").slideUp(500).slideDown(500);
+    });
+});
+     </script>
+	<script>
+	$(document).ready(function(){
+	$("#love").click(function(){
+	
+	$("#family").attr("src","./images/love-family.jpg");
+	});
+	$("#love").dblclick(function(){
+	$("#family").attr("src","./images/family.jpg");
+	});
+	});
+	
+	</script>
+
+
+  
+
+
+  </head>
+  
+  
+  <body>
+    
+	 <!-- page content -->
+    <div class="container">
+	
+	    <!-- Navigation -->
+	    <nav class="navbar navbar-toggleable-md navbar-light fix-top navbar navbar-inverse bg-primary" style="background-color: #e3f2fd;">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+			    <p class="nav-item">
+					 <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+				</p>
+				<p class="nav-item">
+					 <a class="nav-link" href="#skills">Skills</a>
+				 </p>
+				 <p class="nav-item">
+					  <a class="nav-link" href="#experiences">Experiences</a>
+				   </p>
+				    <p class="nav-item">
+					 <a class="nav-link" href="#my projects">My Projects</a>
+				</p>
+				 <p class="nav-item">
+					  <a class="nav-link" href="#team">Team</a>
+				   </p>
+				   <p class="nav-item">
+					  <a class="nav-link" href="#contact">Contact me</a>
+				   </p>
+              </ul>
+              
+             </div>
+			 
+			<div id="name">Mary Liu</div>
+              <button id="welcome"class="btn btn-outline-info">Welcome</button>
+         </nav>
+		
+		<!-- /Navigation -->
+		
+	    <!-- HOME -->
+		<div class="home text-center bg-info mt-4 " id="home">
+                <div class="container">
+				<img src="./images/1.jpg" class="img-fluid" alt="">
+                   <p class="display-4">Software Fun</p>
+                    <p class="lead">If you can dream it, you can do it!</p>
+                </div>
+         </div>
+		 <!-- /HOME -->
+		 
+		
+		 
+		 <!-- skills -->
+		  
+		 <div class="container1" id="skills">
+		 <h1>SKILLS</h1>
+              <div class="row">
+             
+		  
+            <div class="col-md-2 mt-3">
+              <h5>HTML</h5>
+			  <img class="img-thumbnail" src="./images/html5.png" alt="">
+			 
+			 <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.">
+              HTML?</button>
+			  </div>
+			  
+			   
+            <div class="col-md-2 mt-3">
+              <h5>CSS</h5>
+			  <img class="img-thumbnail" src="./images/css.png" alt="">
+			   <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a variety of devices.">
+              CSS?</button>
+			  </div>
+			  
+            <div class="col-md-2 mt-3">
+              <h5>SQL</h5>
+			    <img class="img-thumbnail" src="./images/sql.png" alt="">
+		       <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="SQL is used to communicate with a database. According to ANSI (American National Standards Institute), it is the standard language for relational database management systems.">
+              SQL?</button>
+		   </div>
+			 
+			  <div class="col-md-2 mt-3">
+              <h5>JavaScript</h5>
+			    <img class="img-thumbnail" src="./images/javascript.png" alt="">
+			   <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="JavaScript is a programming language that adds interactivity to your website.">
+              JS?</button>
+			</div>
+			 
+			  <div class="col-md-2 mt-3">
+              <h5>C#&ASP.Net</h5>
+			    <img class="img-thumbnail" src="./images/c.png" alt="">
+			  <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="C# is an object-oriented programming language.">
+              C#?</button>
+			 </div>
+			 
+			  <div class="col-md-2 mt-3">
+              <h5>Python</h5>
+			    <img class="img-thumbnail" src="./images/python.png" alt="">
+			  <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.">
+              Python?</button>
+			 </div>
+			
+	        
+			  <div class="col-md-2 mt-3">
+              <h5>Chinese Language</h5>
+			    <img class="img-thumbnail" src="./images/chinese.png" alt="">
+			  <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="I am fluent in Chinese language and culture!">
+             Chinese</button>
+			 </div>
+			
+			
+		   <div class="col-md-2 mt-3">
+              <h5>Korean Language</h5>
+			    <img class="img-thumbnail" src="./images/korean.png" alt="" >
+			  <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content=" I am mastery in Korean language and culture!">
+            Korean</button>
+			 </div>
+			
+		</div>
+		</div>
+		
+		 
+		 
+		 <!-- Experience -->
+		<div id="experience"> 
+		  
+		<h1>Experiences</h1>
+		
+		 <button id="hide" class="btn btn-outline-primary"> Hide || Show</button>
+		 
+        
+		 
+	  <div class="card-group bg-info">
+		
+		
+	<div class="card">
+	 <img class="card-img-top" src="./images/oregon-hope-chinese-school.jpg" alt="Card image cap"  height="100px" width="100px">
+		<div class="card-block">
+			<h3 class="card-title">2013-2015 Mandarin Chinese Teacher</h3>
+			
+		
+           <h6 class="card-text">
+<ul>
+<li>	Developed the summer camp curriculum</li>
+<li>	Prepared and taught summer camp classes</li>
+<li>	Taught Mandarin Chinese, arts and crafts, math, and dance to children aged 3 to 11</li> 
+<li>	Helped foster creativity in children</li>
+<li>	Provided a safe and fun learning environment</li> 
+<li>	Kept classroom clean, tidy, and organized</li>
+<li>	Assisted in performance rehearsals</li>
+<li>	Accompanied children to outside venues for special events and performances</li>
+<li>	Educated children on proper social etiquette</li>
+<li>	Escorted parents on school tours</li>
+<li>	Prepared a daily record of student’s activities for parents</li>
+    
+</ul>
+         </h6>
+       
+		</div>
+    </div>
+	
+		<div class="card">
+		 <img class="card-img-top" src="./images/kinder-care.jpg" alt="Card image cap"  height="100px" width="100px">
+		   <div class="card-block">
+			<h3 class="card-title">2015-2017 Kindergarten Lead Teacher</h3>
+		
+			<h6 class="card-text">
+			<ul>
+			<li>	Teach kindergarten students</li>
+			<li>	Teach foreign languages to students</li>
+			<li>	Help foster creativity in children through a variety of activities</li>
+			<li>	Greet parents and communicate with parents about student performance</li>
+			<li>	Hold bi-annual conferences with parents</li>
+			<li>	Manage kindergarten students as well as assistant teacher</li>
+			<li>	Keep classroom clean and organized</li>
+			<li>	Write weekly newsletters for the parents about class curriculum and events</li>
+			<li>    Promote and sell “Learning Adventure” classes</li>
+			<li>	Continually communicate with management about individual and class progress and issues</li>
+			<li>	Regularly attend continual education training</li>
+
+          </ul>
+		  </h6>
+		  </div>
+		</div>
+		
+		  <div class="card">
+		 <img class="card-img-top" src="./images/the-tech-academy.jpg" alt="Card image cap" height="100px" width="100px">
+		   <div class="card-block">
+			<h3 class="card-title">2017 The Tech software developer</h3>
+		
+			<h6 class="card-text">
+			<ul>
+
+			<li> Computer Basics Course</li>
+			<li> Overview of Software Development Course</li> 
+			<li> Version Control Course </li>
+			<li> HTML and CSS Course </li>
+			<li> Database and SQL Course</li>  
+			<li> JavaScript Course</li>
+			<li> Visual Studio Course</li>  
+			<li> C# and ASP.NET </li> 
+			<li> Project Management Course</li> 
+			<li> Live Project</li>
+
+              </ul>
+              </h6>
+		  </div>
+		 </div>
+		 </div>
+		 </div>
+		  <!-- /Experience -->
+		  <!-- My Project -->
+		 <div id="my project">
+		  <h1>My Projects</h1>
+		 
+	     <div class = "item">
+	    <img  src="./images/make.jpg" alt="" height="200px" width="200px" class="square">
+        <a href="https://maryliu521.github.io/pizza_webpage/" class="btn2 btn-outline-primary" target="_new">Pizza Webpage</a>
+		</div>
+		
+		 <div class = "item">
+	        <img  src="./images/WarCardGame.PNG" alt="" height="200px" width="200px" class="square">
+        <a href="./tic-tac-toe/tictactoe.html"<div class="btn2 btn-outline-primary" target="_new">War Card Game</div>
+        </a>
+       <div class = "item">
+		<img  src="./images/tic-tac-toe.PNG" alt="" height="200px" width="200px" class="square">
+        <!--<a href="https://maryliu521.github.io/pizza_webpage/"--><div class="btn2 btn-outline-primary" target="_new">Tic-Tac-Toe Game</div>
+		</div>
+		</div>
+		  <!-- /My Project -->
+		  
+		  
+		  <!-- Team -->
+		<div id="team">
+		  <h1>Team</h1>
+		  <div id="container-fluid">
+		
+		
+		  <p>The strength of a family, like the strength of an army, is in its loyalty to each other.</p>
+           <span>  --MARIO PUZO, The Family</span>
+		<div class="photo-container bg-info">
+		   
+			 <img id = "family" style="float:right" src="images/family.jpg" alt="">
+			 
+			 
+			 <p>My family gives me the strongest support!</p>
+			<button id="love" class="btn btn-outline-primary">I Love My Family!</button>
+	     </div>
+	    </div>
+		</div>
+		  
+	
+	      <!-- /Team -->
+		  
+		  <!-- contact -->
+		  
+		  <div id="contact"></div>
+		  <h1>Contact me</h1>
+	<div id="nav">
+	        <img  src="./images/github.png" alt="" height="40px" width="40px" class="rounded-circle">
+        <a href="https://github.com/Maryliu521" class="btn btn-outline-primary" target="_new">Github</a>
+		   <img  src="./images/facebook.png" alt="" height="40px" width="40px" class="rounded-circle">
+       <a href="https://www.facebook.com/mary.liudu" class="btn btn-outline-primary" target="_new">Facebook</a>
+           <img  src="./images/linkedin.png" alt="" height="40px" width="40px" class="rounded-circle">
+	     <a href="https://www.linkedin.com/in/mary-liu/" class="btn btn-outline-primary" target="_new">Linkedin</a>
+         <img  src="./images/gmail.png" alt="" height="40px" width="40px" class="rounded-circle">
+		 <button class="btn1 btn-outline-primary" data-toggle="modal" data-target="#register">My Email</button>
+	  <!--form modal-->
+	<div class="modal fade" id="register">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Keep in Touch...</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+             <div class="modal-dialog modal-sm">
+          <span aria-hidden="true">&times;</span>
+		  </div>
+		  </div>
+        </button>
+      </div>
+      <div class="modal-body">  
+	  <form>
+	  <fieldset class="form">
+	   <label for="email">My Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="maryrthebest@gmail.com">
+      </fieldset>
+	  </form>
+	  </div>
+	   <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+		
+	</div>	 
+	</div>
+	</div>
+	<!--/form modal-->
+		  <!-- /contact -->
+	
+
+	    		
+	       <!-- FOOTER -->
+    <div id="footer">
+	<div class="bg-primary">
+      mary Liu Portfolio &nbsp;|&nbsp; &copy; 2017
+    </div>
+	</div>
+         <!-- END FOOTER -->
+   
+	
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <!-- explaination for the Experience parts-->
+  	 <script>
+ $('.popover-dismiss').popover({
+  trigger: 'focus'
+});
+ </script>
+   <!-- /explaination for the Experience parts-->
+  
+  </body>
+</html>
