@@ -12,6 +12,11 @@ font-family:roboto;
 #welcome{
 	width: 100px;
 }
+
+.home{
+	
+	 padding-top:80px;
+}
 .display-4 {
 	font-family: script;
 	font-weight: 600;
@@ -67,12 +72,15 @@ font-family:roboto;
 	  box-shadow: 2px 2px 10px 0 lightblue;
 	  width: 100px;
 	  height: 100px;
+	  
   }
 	 
 button {
       margin: 2% auto; 
 	  width:80px;
 	  height:30px;
+	  cursor:pointer;
+	 box-shadow: 2px 2px 10px 0 #3a7791;
 
 	  
 }
@@ -93,15 +101,19 @@ button {
 	.card{
 		position: relative;
 		line-height: 0;
-		margin:1em;
 		overflow: hidden;
 		border-radius: 10px; 
+		margin:1em;
 		padding: 1px;
 		border: 1px solid lightblue;
 		background-color: info;
 	    box-shadow: 1px 1px 5px 0 rgba(0, 0, 1,.7);
 		size: 50px;
 		
+	}
+	.card-img-top{
+		width:auto;
+		height:auto;
 	}
 	/*.card-text{
 		
@@ -113,6 +125,10 @@ button {
 	display: inline-block;
 	text-align:center;
 	width:120px;
+	
+	margin-left:100px;
+	
+	
 
 }
 .square{
@@ -121,8 +137,8 @@ button {
 	 box-shadow: 1px 1px 5px 0 rgba(0, 0, 1,.7);
 	 display:block;
 	 margin:0 auto;
-	 width:100px;
-	 height:100px;
+	 width:100%;
+	 height:100%;
 }
 .btn2{
 	display:block;
@@ -168,6 +184,10 @@ button {
 	margin-right: auto;
 	margin-left: auto;
 }
+ .expert{ 
+	 float:right; 
+	font-size:1.25em; 
+ } 
 .family {
 	
 	font-family: sans serif;
@@ -176,7 +196,7 @@ button {
 	margin-top: 10%;
 	text-align:center;
 	font-size: 50px;
-	fshadow:2px;
+	box-shadow:2px;
 	color:#000;
 }
 #love{
@@ -184,18 +204,21 @@ button {
 	
 }
 	
-.photo-container {
-	  text-align: center;
-        vertical-align: middle;
-        display: table-cell;
-		padding:20px;
-    }
+.photo-container { 
+	   text-align: center;
+        vertical-align: middle; 
+		 border-radius:10px; 
+		 width:60%; 
+		 height:338px; 
+        padding:20px; 
+     } 
 
 	#family {
 border-radius:	8px;
 overflow:hidden;
-height:300px;
-width:200px;
+height:200px;
+width:180px;
+
 	}
    /*=========
    contct me
