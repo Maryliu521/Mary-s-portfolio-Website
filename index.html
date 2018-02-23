@@ -8,333 +8,261 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/portfolio.css">
-	<!-- make "Software Fun" dynamic -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script>
-	$(document).ready(function(){
-	 $(".display-4").on({
-	 mouseenter:function(){
-	    $(this).css("color","#fff");
-		},
-		 mouseleave:function(){
-	    $(this).css("color","#000");
-		}
-		});
-		});
-		</script>
-		<!-- put buttons on section Experience, hide || show -->
-	<script>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<script src="./js/portfolio.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
 			$(document).ready(function(){
 			$("#hide").click(function(){
 				$("li").toggle(1000);
 			});
 		
 			});
-   </script>
-
-     <script>
-    $(document).ready(function(){
-    $("#welcome").click(function(){
-        $("#name").css("color", "red").slideUp(500).slideDown(500);
-    });
-});
      </script>
-	<!-- <script> -->
-	<!-- $(document).ready(function(){ -->
-	<!-- $("#love").click(function(){ -->
-	
-	<!-- $("#family").attr("src","./images/love-family.jpg"); -->
-	<!-- }); -->
-	<!-- $("#love").dblclick(function(){ -->
-	<!-- $("#family").attr("src","./images/family.jpg"); -->
-	<!-- }); -->
-	<!-- }); -->
-	
-	<!-- </script> -->
-
-
-  
-
-
   </head>
   
   
   <body>
-    
-	 <!-- page content -->
-    <div class="container">
+<div class="container"> 
 	
-	    <!-- Navigation -->
-	    <nav class="navbar navbar-toggleable-md navbar-light fix-top navbar navbar-inverse bg-primary" style="background-color: #e3f2fd;">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-			    <p class="nav-item">
-					 <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-				</p>
-				<p class="nav-item">
-					 <a class="nav-link" href="#skills">Skills</a>
-				 </p>
-				 <p class="nav-item">
-					  <a class="nav-link" href="#experiences">Experiences</a>
-				   </p>
-				    <p class="nav-item">
-					 <a class="nav-link" href="#myProjects">My Projects</a>
-				</p>
-				 <p class="nav-item">
-					  <a class="nav-link" href="#team">Team</a>
-				   </p>
-				   <p class="nav-item">
-					  <a class="nav-link" href="#contact">Contact me</a>
-				   </p>
-              </ul>
-              
-             </div>
-			 
-			<div id="name">Mary Liu</div>
-              <button id="welcome"class="btn btn-outline-info">Welcome</button>
-         </nav>
+					    <!-- Navigation -->
 		
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9755;</a>
+  <a href="#home">Home</a>
+  <a href="#skills">Skills</a>
+  <a href="#experiences">Experiences</a>
+  <a href="#myProjects">My Projects</a>
+  <a href="#team">Team</a>
+  <a href="#contact">Contact Me</a>
+</div>
+
+<span class="navbar" style="cursor:pointer" onclick="openNav()">&#9776; Mary Liu</span>
+<span class="navbar" style="font-size: 35px"><a href="./Mary Liu-Resume.pdf" target="new">Software Developer</a></span> 
+
+  
 		<!-- /Navigation -->
-		
+	<div id="main">	
 	    <!-- HOME -->
-		<div class="home text-center bg-info" id="home">
-                <div class="container">
-				<img  src="./images/1.jpg" class="img-fluid" alt="">
-                   <p class="display-4">Software Fun</p>
-                    <p class="lead">If you can dream it, you can do it!</p>
-                </div>
+		<div class="home" id="home">
+		
+               
          </div>
 		 <!-- /HOME -->
-		 
+
 		
 		 
 		 <!-- skills -->
 		  
-		 <div class="container1" id="skills">
+	 <div class="container1" id="skills">
 		 <h1>SKILLS</h1>
-              <div class="row">
-             
-		  
-            <div class="col-md-2 mt-3">
-              <a href="https://github.com/Maryliu521/Tech-Academy-Projects/tree/master/Academy-Projects/HTML%26CSS/cinema" target="new">
-			  <h5>HTML</h5></a>
-			  <img class="img-thumbnail" src="./images/html5.png" alt="">
-			  </div>
+           <div class="row">
+             <div class="col-md-2 mt-3">
+				 <a href="https://github.com/Maryliu521/Tech-Academy-Projects/tree/master/Academy-Projects/HTML%26CSS/cinema" target="new">
+				 <h5>HTML</h5></a>
+				 <img class="img-thumbnail" src="./images/html5.png" alt="">
+			</div>
 			  
 			   
             <div class="col-md-2 mt-3">
-              <a href="https://github.com/Maryliu521/Tech-Academy-Projects/tree/master/Academy-Projects/HTML%26CSS/The-Space-Station" target="new">
-			  <h5>CSS</h5></a>
-			  <img class="img-thumbnail" src="./images/css.png" alt="">
-			  </div>
+				 <a href="https://github.com/Maryliu521/Tech-Academy-Projects/tree/master/Academy-Projects/HTML%26CSS/The-Space-Station" target="new">
+			     <h5>CSS</h5></a>
+			     <img class="img-thumbnail" src="./images/css.png" alt="">
+		    </div>
 			  
             <div class="col-md-2 mt-3">
-              <a href="https://github.com/Maryliu521/Library-Data-Analyzing-SQL" target="new"><h5>SQL</h5></a>
-			    <img class="img-thumbnail" src="./images/sql.png" alt="">
-		   </div>
+                 <a href="https://github.com/Maryliu521/Library-Data-Analyzing-SQL" target="new"><h5>SQL</h5></a>
+			     <img class="img-thumbnail" src="./images/sql.png" alt="">
+		    </div>
 			 
-			  <div class="col-md-2 mt-3">
-              <a href="https://github.com/Maryliu521/pizza_webpage" target="new"><h5>JavaScript</h5></a>
-			    <img class="img-thumbnail" src="./images/javascript.png" alt="">
+		    <div class="col-md-2 mt-3">
+                 <a href="https://github.com/Maryliu521/pizza_webpage" target="new"><h5>JavaScript</h5></a>
+			     <img class="img-thumbnail" src="./images/javascript.png" alt="">
 			</div>
 			 
-			  <div class="col-md-2 mt-3">
-             <a href="https://github.com/Maryliu521/Tech-Academy-Projects/tree/master/Academy-Projects/C%23/PapaBobsPizza-3LAYERS" target="new">
-			 <h5>C# ASP.Net</h5></a>
-			    <img class="img-thumbnail" src="./images/c.png" alt="">
-			 </div>
+			 <div class="col-md-2 mt-3">
+				 <a href="https://github.com/Maryliu521/Tech-Academy-Projects/tree/master/Academy-Projects/C%23/PapaBobsPizza-3LAYERS" target="new">
+				 <h5>C# ASP.Net</h5></a>
+			     <img class="img-thumbnail" src="./images/c.png" alt="">
+			</div>
 			 
-			  <div class="col-md-2 mt-3">
-              <a href="https://github.com/Maryliu521/Tech-Academy-Projects/tree/master/Academy-Projects/Python" target = "new"><h5>Python</h5></a>
-			    <img class="img-thumbnail" src="./images/python.png" alt="">
-			 </div>
+			<div class="col-md-2 mt-3">
+                 <a href="https://github.com/Maryliu521/Tech-Academy-Projects/tree/master/Academy-Projects/Python" target = "new"><h5>Python</h5></a>
+			     <img class="img-thumbnail" src="./images/python.png" alt="">
+			</div>
 			
-	        <div class="more">
-			  <div class="language">
-             <a href="https://user.qzone.qq.com/1553387908/main" target="new"> <h5>Chinese Language</h5></a>
-			    <img class="img-thumbnail" src="./images/chinese.png" alt="">
-			 </div>
+	      <div class="more">
+			<div class="language">
+                 <a href="https://user.qzone.qq.com/1553387908/main" target="new"> <h5>Chinese Language</h5></a>
+			     <img class="img-thumbnail" src="./images/chinese.png" alt="">
+			</div>
 			
 			
-		   <div class="language">
-             <a href="http://www.pcu.ac.kr/www/index/" target= "new"> <h5>Korean Language</h5></a>
-			    <img class="img-thumbnail" src="./images/korean.png" alt="" >
+		    <div class="language">
+                 <a href="http://www.pcu.ac.kr/www/index/" target= "new"> <h5>Korean Language</h5></a>
+			     <img class="img-thumbnail" src="./images/korean.png" alt="" >
 			 </div>
-			 </div>
+		 </div>
 			
 		</div>
-		</div>
+	 </div>
 		
 		 
 		 
 		 <!-- Experience -->
-		<div id="experiences"> 
+	<div id="experiences"> 
 		  
 		<h1>Experiences</h1>
-		
-		 <button id="hide" class="btn btn-info"> Hide / Show</button>
+		<button id="hide" class="btn btn-info"> Hide / Show</button>
 		 
-        
-		 
-	  <div class="card-group bg-info">
-		
-		
-	<div class="card">
-	 <img class="card-img-top" src="./images/Oregon-Hope-Chinese-School.png" alt="Card image cap" >
+    <div class="card-group experience">
+	  <div class="card">
+	    <img class="card-img-top" src="./images/Oregon-Hope-Chinese-School.png" alt="Card image cap" >
 		<div class="card-block">
 			<h3 class="card-title">2013-2015 Mandarin Chinese Teacher</h3>
 			
 			  <h6 class="card-text">
-<ul>
-<li>	Developed the summer camp curriculum that helped increased summer camp attendance</li>
-<li>	Taught Mandarin Chinese, arts and crafts, math, and dance to children aged 3 to 11</li> 
-<li>	Helped foster creativity in children</li>
-<li>	Assisted in performance rehearsals and accompanied children to outside venues for special events and performances</li>
-<li>	Escorted parents on school tours</li>
-<li>	Prepared a daily record of student’s activities for parents</li>
-    
-</ul>
-         </h6>
+					<ul>
+					<li>	Developed the summer camp curriculum that helped increased summer camp attendance</li>
+					<li>	Taught Mandarin Chinese, arts and crafts, math, and dance to children aged 3 to 11</li> 
+					<li>	Helped foster creativity in children</li>
+					<li>	Assisted in performance rehearsals and accompanied children to outside venues for special events and performances</li>
+					<li>	Escorted parents on school tours</li>
+					<li>	Prepared a daily record of student’s activities for parents</li>
+						
+					</ul>
+              </h6>
        
 		</div>
     </div>
 	
-		<div class="card">
+	 <div class="card">
 		 <img class="card-img-top" src="./images/kinder-care.jpg" alt="Card image cap">
 		   <div class="card-block">
 			<h3 class="card-title">2015-2017 Kindergarten Lead Teacher</h3>
 		
 		
 			<h6 class="card-text">
-			<ul>
-			
-			<li>	Create a variety of activities with multi languages</li>
-			<li>	Host bi-annual conferences with parents</li>
-			<li>	Manage kindergarten students as well as assistant teacher</li>
-			<li>	Write weekly newsletters for the parents about class curriculum and events</li>
-			<li>	Continually communicate with management about class progress and issues</li>
+				<ul>
+				
+				<li>	Create a variety of activities with multi languages</li>
+				<li>	Host bi-annual conferences with parents</li>
+				<li>	Manage kindergarten students as well as assistant teacher</li>
+				<li>	Write weekly newsletters for the parents about class curriculum and events</li>
+				<li>	Continually communicate with management about class progress and issues</li>
 
-          </ul>
+			  </ul>
 		  </h6>
 		  </div>
-		</div>
+	 </div>
 		
-		  <div class="card">
+     <div class="card">
 		 <img class="card-img-top" src="./images/The Tech Academy Logo.png" alt="Card image cap">
 		   <div class="card-block">
 			<h3 class="card-title">2017 The Tech software developer</h3>
 		
 			<h6 class="card-text">
-			<ul>
+				<ul>
 
-			<li> Built website with HTML, CSS and JavaScript</li> 
-			<li> Completed a sample library database with SQL </li> 
-			<li> Completed different projects with C# and .Net framework </li> 
-			<li> Contributed to the www.bewander.com social networking site (.NET Framework) </li>
+				<li> Built website with HTML, CSS and JavaScript</li> 
+				<li> Completed a sample library database with SQL </li> 
+				<li> Completed different projects with C# and .Net framework </li> 
+				<li> Contributed to the www.bewander.com social networking site (.NET Framework) </li>
 
-              </ul>
+				  </ul>
               </h6>
 		  </div>
-		 </div>
-		 </div>
-		 </div>
+	 </div>
+	</div>
+	</div>
+	
 		  <!-- /Experience -->
+		  
 		  <!-- My Project -->
-		 <div id="myProjects">
+	<div id="myProjects">
 		  <h1>My Projects</h1>
-		 
-	     <div class = "item">
-	      <img  src="./images/make.jpg" alt=""  class="square">
-           <a href="https://maryliu521.github.io/pizza_webpage/" class="btn2 btn-outline-primary" target="_new">Pizza Webpage</a>
-		</div>
-		
-		 <div class = "item">
-	       <img  src="./images/casino.png"  alt=""  class="square">
-			<a href="https://github.com/Maryliu521/Tech-Academy-Projects/tree/master/Academy-Projects/C%23/MegaChallengeCasino-34" target="_new" class="btn2 btn-outline-primary">Casino Game
-            </a>
-		</div>
-		
-       <div class = "item">
-		 <img  src="./images/tic-tac-toe.PNG" alt=""  class="square">
-         <a href="./tic-tac-toe/TicTacToe.html" target="_new" class="btn2 btn-outline-primary">Tic-Tac-Toe</a>
-		</div>
-		
-		 <div class = "item">
-		   <img  src="./images/more.png" alt=""  class="square">
-           <a href="https://github.com/Maryliu521/Tech-Academy-Projects" target="_new" class="btn2 btn-outline-primary">More Projects	</a>
-		</div>
-		</div>
+		 <div class="projects">
+				<div class = "item">
+					 <img  src="./images/make.jpg" alt=""  class="square">
+					 <a href="https://maryliu521.github.io/pizza_webpage/" class="btn2 btn-outline-primary" target="_new">Pizza Webpage</a>
+				</div>
+				
+				<div class = "item">
+					 <img  src="./images/casino.png"  alt=""  class="square">
+					 <a href="https://github.com/Maryliu521/Tech-Academy-Projects/tree/master/Academy-Projects/C%23/MegaChallengeCasino-34" target="_new" class="btn2 btn-outline-primary">Casino Game
+					   </a>
+				</div>
+				
+				<div class = "item">
+					 <img  src="./images/tic-tac-toe.PNG" alt=""  class="square">
+					 <a href="./tic-tac-toe/TicTacToe.html" target="_new" class="btn2 btn-outline-primary">Tic-Tac-Toe</a>
+				</div>
+				
+				<div class = "item">
+					 <img  src="./images/more.png" alt=""  class="square">
+					 <a href="https://github.com/Maryliu521/Tech-Academy-Projects" target="_new" class="btn2 btn-outline-primary">More Projects	</a>
+				</div>
+		 </div>
+	</div>
 		  <!-- /My Project -->
 		  
 		  
 		  <!-- Team -->
 		<div id="team">
 		  <h1>Team</h1>
-		  <div id="container-fluid">
-		
-		
-		  <p class="mario" style=text-align:center><em>"The strength of a family, like the strength of an army, is in its loyalty to each other."</em><br></p>
-		  <p class="expert"> --MARIO PUZO, The Family</p>
-            
-		  
-	<div class="photo-container">
-		   
-			 <img id = "family" style="float:right" src="images/family.png" alt="">
-	     </div> 
-			<!-- <button id="love" class="btn btn-outline-primary" style=float:left>I Love My Family!</button> -->
-	     
-	    </div>
+		    <div id="team-content">
+				  <p class="mario" style=text-align:center><em>"The strength of a family, like the strength of an army, is in its loyalty to each other."</em></p>
+				  <p class="expert"> --MARIO PUZO, The Family</p>
+					<div class="photo-container">
+				       <img id = "family" src="images/family.png" alt="">
+				    </div> 			 
+	        </div>
 		</div>
-		  
-	
-	      <!-- /Team -->
+		  <!-- /Team -->
 		  
 		  <!-- contact -->
 		  
-		  <div id="contact">
-		  <h1>Contact me</h1>
-	<div id="nav">
-	        <img  src="./images/github.png" alt="" height="40px" width="40px" class="rounded-circle">
-        <a href="https://github.com/Maryliu521" class="btn btn-outline-primary" target="_new">Github</a>
-		   <img  src="./images/facebook.png" alt="" height="40px" width="40px" class="rounded-circle">
-       <a href="https://www.facebook.com/mary.liudu" class="btn btn-outline-primary" target="_new">Facebook</a>
-           <img  src="./images/linkedin.png" alt="" height="40px" width="40px" class="rounded-circle">
-	     <a href="https://www.linkedin.com/in/mary-liu/" class="btn btn-outline-primary" target="_new">Linkedin</a>
-         <img  src="./images/gmail.png" alt="" height="40px" width="40px" class="rounded-circle">
-		 <button class="btn1 btn-outline-primary" data-toggle="modal" data-target="#register">My Email</button>
-	  <!--form modal-->
-	<div class="modal fade" id="register">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title">Keep in Touch...</h4>
-       
-		<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-             <div class="modal-dialog modal-sm">
-          <span aria-hidden="true">&times;</span>
-		  </div>
-		  </div>
-        
-      </div>
-      <div class="modal-body">  
-	  <form>
-	  <fieldset class="form">
-	   <label for="email">My Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="maryrthebest@gmail.com">
-      </fieldset>
-	  </form>
-	  </div>
-	   <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-		
-	</div>	 
-	</div>
-	</div>
-	<!--/form modal-->
+    <div id="contact">
+		 <h1>Contact me</h1>
+			<div id="nav">
+				<img  src="./images/github.png" alt="" height="35px" width="35px" class="rounded-circle">
+			    <a href="https://github.com/Maryliu521" class="btn btn-outline-primary" target="_new">Github</a>
+				<img  src="./images/facebook.png" alt="" height="35px" width="35px" class="rounded-circle">
+			    <a href="https://www.facebook.com/mary.liudu" class="btn btn-outline-primary" target="_new">Facebook</a><br>
+				<img  src="./images/linkedin.png" alt="" height="35px" width="35px" class="rounded-circle">
+				<a href="https://www.linkedin.com/in/mary-liu/" class="btn btn-outline-primary" target="_new">Linkedin</a>
+				<img  src="./images/gmail.png" alt="" height="35px" width="35px" class="rounded-circle">
+				<button class="btn1 btn-outline-primary" data-toggle="modal" data-target="#register">My Email</button>
+			  <!--form modal-->
+					<div class="modal fade" id="register">
+				       <div class="modal-dialog" role="document">
+					       <div class="modal-content">
+					            <div class="modal-header">
+						              <h4 class="modal-title">Keep in Touch...</h4>
+								   
+									<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+										 <div class="modal-dialog modal-sm">
+											  <span aria-hidden="true">&times;</span>
+										 </div>
+									</div>
+						
+					             </div>
+								  <div class="modal-body">  
+								    <form>
+									  <fieldset class="form">
+									    <label for="email">My Email:</label>
+									    <input type="email" class="form-control" id="email" placeholder="maryrthebest@gmail.com">
+									  </fieldset>
+								    </form>
+								  </div>
+								   <div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								  </div>
+						
+					        </div>	 
+					   </div>
+					</div>
+					<!--/form modal-->
 	</div>
 	</div>
 		  <!-- /contact -->
@@ -343,13 +271,13 @@
 	    		
 	       <!-- FOOTER -->
     <div id="footer">
-	<div class="bg-primary">
-      mary Liu Portfolio &nbsp;|&nbsp; &copy; 2017
-    </div>
+	  <div class="print">
+        mary Liu Portfolio &nbsp;|&nbsp; &copy; 2017
+      </div>
 	</div>
          <!-- END FOOTER -->
    
-	
+</div>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -362,6 +290,6 @@
 });
  </script>
    <!-- /explaination for the Experience parts-->
-  
+  </div>
   </body>
 </html>
