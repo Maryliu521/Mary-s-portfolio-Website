@@ -1,2 +1,2 @@
 # maryliu521.github.io
-This is my school project.
+maryliu521.github.io
