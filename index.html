@@ -19,7 +19,16 @@
 		
 			});
      </script>
-	 </script>
+	<script> 
+	$(document).ready(function(){
+		$(".col-md-2").mouseover(function(){
+			$("h5").css({"font-size": "2em"});
+		});
+		 $(".col-md-2").mouseout(function(){
+			$("h5").css({"font-size": "1em"});
+		});
+    });
+    </script> 
 
   </head>
   
