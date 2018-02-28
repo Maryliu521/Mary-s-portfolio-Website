@@ -72,7 +72,7 @@ body{
 		 background: url(../images/pa.jpg) no-repeat ; 	 
 		 background-attachment: fixed;
 		 background-position:center;
-		 background-size: cover; 
+		 /* background-size: cover;  */
 		 width: 100%;
 		 display: block;
 		 height: auto;
@@ -285,7 +285,7 @@ p {
 	
 	}
 .btn,.btn1{
-	width:120px;
+	width:150px;
 	height:40px;
 	font-size:20px;
 	border-radius:8px;
@@ -314,30 +314,30 @@ p {
 	          /*==============
 			     MEDIA QUERES
 			   ===============*/
-/* @media all and (media-width:640px) and (min-width:381px){ */
-/* .head-main { */
-          /* font-size: 28px; */
-           /* } */
-/* } */
-/* @media all and (media-width:381px) and (min-width:200px){ */
-/* .head-main { */
-          /* font-size: 24px; */
-           /* } */
-/* } */
-/* @media (min-width: 768px){ */
-/* .container { */
-           /* width: 750px; */
-            /* } */
-/* } */
-/* @media (min-width:992px){ */
-/* .container { */
-            /* width: 970px; */
-            /* } */
-/* } */
-/* @media (min-width:1200px){ */
-/* .container { */
-          /* width: 1170px; */
-           /* } */
-/* } */
+@media all and (media-width:640px) and (min-width:381px){
+.head-main {
+          font-size: 28px;
+           }
+}
+@media all and (media-width:381px) and (min-width:200px){
+.head-main {
+          font-size: 24px;
+           }
+}
+@media (min-width: 768px){
+.container {
+           width: 750px;
+            }
+}
+@media (min-width:992px){
+.container {
+            width: 970px;
+            }
+}
+@media (min-width:1200px){
+.container {
+          width: 1170px;
+           }
+}
 
 
