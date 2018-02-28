@@ -5,7 +5,7 @@ body{
 	background-size: cover; 
 	width: 100%;
 	display: block;
-	height: auto;
+	height:100%;
 }
 
 	
@@ -72,9 +72,8 @@ body{
 		 background: url(../images/pa.jpg) no-repeat ; 	 
 		 background-attachment: fixed;
 		 background-position:center;
-		 /* background-size: cover;  */
-		 max-width:100%;
-		 width: 100%;
+		 background-size: cover;
+	     width: 100%;
 		 display: block;
 		 height: auto;
 		 padding-top: 350px; 
@@ -174,6 +173,7 @@ h5 {
 		border: 1px solid lightblue;
 		background-color: info;
 	    box-shadow: 1px 1px 5px 0 rgba(0, 0, 1,.7);
+		width:auto;
 		
 	}
 .card-img-top{
@@ -315,30 +315,25 @@ p {
 	          /*==============
 			     MEDIA QUERES
 			   ===============*/
-@media all and (media-width:640px) and (min-width:381px){
-.head-main {
-          font-size: 28px;
-           }
+@media (max-width: 370px){
+
+.navbar{
+	font-size:25px;;
 }
-@media all and (media-width:381px) and (min-width:200px){
-.head-main {
-          font-size: 24px;
-           }
+@media (max-width: 900px){
+
+.navbar{
+	font-size:35px;;
 }
-@media (min-width: 768px){
-.container {
-           width: 750px;
-            }
 }
-@media (min-width:992px){
-.container {
-            width: 970px;
-            }
+ @media all and (max-width:995px) and (min-width:570px){
+h4{
+	font-size:0.8em; 
+ } 
+h6{ 
+	font-size:0.7em; 
+ } 
 }
-@media (min-width:1200px){
-.container {
-          width: 1170px;
-           }
-}
+
 
 
