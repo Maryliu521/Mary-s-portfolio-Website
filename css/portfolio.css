@@ -179,13 +179,13 @@ h5 {
 		width:auto;
 		height:auto;
 	}
-h3{
+h4{
 	font-weight:600;
+	font-size:25px;
 }
 h6{
-		font-size:1.3rem;
-	}
-
+	font-size:20px;
+}
 	/*===========
 	  My Projects
 	   ========*/
@@ -285,7 +285,7 @@ p {
 	
 	}
 .btn,.btn1{
-	width:100px;
+	width:120px;
 	height:40px;
 	font-size:20px;
 	border-radius:8px;
@@ -314,30 +314,30 @@ p {
 	          /*==============
 			     MEDIA QUERES
 			   ===============*/
-@media all and (media-width:640px) and (min-width:381px){
-.head-main {
-          font-size: 28px;
-           }
-}
-@media all and (media-width:381px) and (min-width:200px){
-.head-main {
-          font-size: 24px;
-           }
-}
-@media (min-width: 768px){
-.container {
-           width: 750px;
-            }
-}
-@media (min-width:992px){
-.container {
-            width: 970px;
-            }
-}
-@media (min-width:1200px){
-.container {
-          width: 1170px;
-           }
-}
+/* @media all and (media-width:640px) and (min-width:381px){ */
+/* .head-main { */
+          /* font-size: 28px; */
+           /* } */
+/* } */
+/* @media all and (media-width:381px) and (min-width:200px){ */
+/* .head-main { */
+          /* font-size: 24px; */
+           /* } */
+/* } */
+/* @media (min-width: 768px){ */
+/* .container { */
+           /* width: 750px; */
+            /* } */
+/* } */
+/* @media (min-width:992px){ */
+/* .container { */
+            /* width: 970px; */
+            /* } */
+/* } */
+/* @media (min-width:1200px){ */
+/* .container { */
+          /* width: 1170px; */
+           /* } */
+/* } */
 
 
