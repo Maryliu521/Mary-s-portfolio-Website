@@ -57,11 +57,18 @@ body{
 	margin-top:5%;
 	margin-left:13%;
 	width:80%;
+	text-shadow: 2px 1px #fff;
+	color:darkblue;
 }
-	
+.name{
+	cursor: pointer;
+	color:  #f442df;
+	font-size:50px;
+	font-family: 'Lobster', cursive;
+}
 
 #home {
-		 background: url(../images/3.jpg) no-repeat ;  
+		 background: url(../images/pa.jpg) no-repeat ; 	 
 		 background-attachment: fixed;
 		 background-position:center;
 		 background-size: cover; 
@@ -70,25 +77,19 @@ body{
 		 height: auto;
 		 padding-top: 350px; 
 		 padding-bottom: 500px;
-}}
-
-
-
-a{
-	font-weight: 400px;
-	color:#000;
 }
+
 h1 {
-	  font-family:roboto;
+	  font-family: 'Lobster', cursive;
+	  letter-spacing:0.2em;
 	  line-height: 50px;
 	  font-weight: 500;
 	  font-size: 40px;
 	  text-transform: uppercase;
 	  text-align: center;
-	  color: #E91C1C;
-	  text-shadow: 2px 2px 3px rgba(0,0,1,0.5);
+	  color: #00bfff;
 	  padding-top:25px;
-	  text-shadow: 2px 1px #00bfff;
+	  text-shadow: 2px 1px #fff;
   }
   
 h1::after { /*This is the underline */
@@ -96,9 +97,9 @@ h1::after { /*This is the underline */
 	  content:"";
 	  height: 2px;
 	  width: 150px;
-	  background: #E91C1C;
+	  background:#00bfff;
 	  margin: 5px auto 40px;
-	  box-shadow: 5px 2px 3 px rgba(0,0,1,0.5);
+	  box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
   }
   	/*===========
 	    Skills
@@ -113,10 +114,10 @@ h1::after { /*This is the underline */
 }
  
 h5 {
-		color: #fff;
-		font-family:roboto;
-		text-shadow: 2px 1px #00bfff;
-	    font-weight:500;
+		color: #f442df;
+		font-family: roboto;
+		font-size:20px;
+	    font-weight:800;
 	
 	}
  
@@ -149,6 +150,7 @@ h5 {
 #hide {
 	width: 120px;
 	margin-bottom:10px;
+	color: #f442df;
 
 }
 
@@ -158,6 +160,7 @@ h5 {
 	border-radius:10px;
 	background-color:#00bfff;
 	opacity:0.8;
+	font-family: roboto;
 }
 .card{
 		position: relative;
@@ -169,12 +172,17 @@ h5 {
 		border: 1px solid lightblue;
 		background-color: info;
 	    box-shadow: 1px 1px 5px 0 rgba(0, 0, 1,.7);
-		size: 50px;
 		
 	}
 .card-img-top{
 		width:auto;
 		height:auto;
+	}
+h3{
+	font-weight:600;
+}
+h6{
+		font-size:1.3rem;
 	}
 
 	/*===========
@@ -192,46 +200,31 @@ h5 {
 	text-align:center;
 	width:15%;	
 	margin:4.5%;
+
 }
 .square{
-	border-radius: 8px;
-	border: 2px solid #00bfff;
+	 border-radius: 8px;
+	 border: 2px solid #00bfff;
 	 box-shadow: 1px 1px 5px 0 rgba(0, 0, 1,.7);
 	 display:block;
 	 margin:0 auto;
 	 width:100%;
 	 height:100%;
+	 opacity:0.8;
 }
 
 .btn2{
 	display:block;
-	color:#fff;
-	text-shadow: 2px 1px #00bfff;
-	font-weight:500;
+	color:  #f442df;
+	font-weight:600;
 	font-size:20px;
+	font-family:roboto;
 }
 	
-	
-p {
-	  font-family:roboto;
-	  font-weight:800;
-	  line-height: 40px;
-	  font-size: 25px;
-	  color:darkblue;
-	  padding-left: 20px;
-	  margin-top:2%;
-	  
-	}
-
-h2 {
-		padding-top: 20px;
-		text-align: center;
-		padding-top:80px;
-	}
-	
 	/*===========
-	   Team
+	     Team
 	   ========*/
+
 #team{
 	margin-top:8%;
 }
@@ -243,11 +236,23 @@ h2 {
 	border-radius:10px;
     background-color: #00BFFF;
 	opacity:0.8;
+	letter-spacing:0.1em;
 }
+p {
+	  font-family: roboto;
+	  font-weight:800;
+	  line-height: 40px;
+	  font-size: 25px;
+	  color:darkblue;
+	  padding-left: 20px;
+	  margin-top:2%;
+	  
+	}
+
  .expert{ 
 	padding-left:50%;
-	font-size:1.25em; 	
-	font-family: sans serif;
+	font-size:1.5em; 	
+	font-family:  roboto;
 	
  } 
 
@@ -280,10 +285,11 @@ h2 {
 	}
 .btn,.btn1{
 	width:100px;
-	height:30px;
+	height:40px;
+	font-size:20px;
 	border-radius:8px;
-	font-family:roboto;
-	font-weight:600;
+	margin: 3px;
+	font-family: roboto;
 }
 			
 	
@@ -291,7 +297,8 @@ h2 {
 		Footer
 		========*/
 #footer {   
-        font-family:roboto;  
+        font-family: roboto;  
+		font-size:20px;
 		color: #000;
 		text-shadow: 2px 2px 8px 0 (0,0,0,.4);
 	    padding: 20px 50px 20px 50px;
