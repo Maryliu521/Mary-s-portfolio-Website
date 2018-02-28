@@ -69,13 +69,14 @@ body{
 }
 
 #home {
-		 background: url(../images/pa.jpg) no-repeat ; 	 
+		 background: url(../images/3.jpg) no-repeat ; 	 
 		 background-attachment: fixed;
 		 background-position:center;
 		 background-size: 100% 100%;
 	     width: 100%;
 		 display: block;
 		 height: auto;
+		 border-radius:8px;
 		 padding-top: 350px; 
 		 padding-bottom: 500px;
 }
