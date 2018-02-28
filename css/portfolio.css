@@ -320,11 +320,7 @@ p {
 .navbar{
 	font-size:25px;;
 }
-@media (max-width: 900px){
 
-.navbar{
-	font-size:35px;;
-}
 }
  @media all and (max-width:995px) and (min-width:570px){
 h4{
