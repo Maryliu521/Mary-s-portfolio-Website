@@ -1,9 +1,7 @@
 body{
-	background: url(../images/ga.jpg) no-repeat ;  
-	background-attachment: fixed;
-	background-position:center;
-	background-size: 100% 100%;
-	max-width: 100%;
+	  background: lightblue url(../images/fa.jpg) no-repeat center;
+	 background-attachment: fixed; 
+	 max-width: 100%;
 	display: block;
 }
 
@@ -68,12 +66,11 @@ body{
 }
 
 #home {
-		 background: url(../images/pa.jpg) no-repeat ; 	 
-		 background-position:center;
-		 background-size: 100% 100%;
+		 background: url(../images/3.jpg) no-repeat ; 	 
+		 background-size:cover;
+		 /* background-size: 100%,100%; */
 	     width: 100%;
-		 display: block;
-		 height: auto;
+		 display: fixed;
 		 border-radius:8px;
 		 padding-top: 350px; 
 		 padding-bottom: 500px;
