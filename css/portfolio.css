@@ -1,8 +1,8 @@
 body{
-	  background: lightblue url(../images/fa.jpg) no-repeat center;
+	 background: lightblue url(../images/fa.jpg) no-repeat center;
 	 background-attachment: fixed; 
 	 max-width: 100%;
-	display: block;
+	 display: block;
 }
 
 	
@@ -39,36 +39,35 @@ body{
 }
 
 .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-	margin-top: 50px;
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+		margin-top: 50px;
 }
 .navbar{
-	font-family: 'Lobster', cursive;
-	float:left;
-	font-size:45px;
-	letter-spacing:0.2em;
-	margin-top:5%;
-	margin-left:13%;
-	width:80%;
-	text-shadow: 2px 1px #fff;
-	color:darkblue;
-	cursor: pointer;
+		font-family: 'Lobster', cursive;
+		float:left;
+		font-size:45px;
+		letter-spacing:0.2em;
+		margin-top:5%;
+		margin-left:13%;
+		width:80%;
+		text-shadow: 2px 1px #fff;
+		color:darkblue;
+		cursor: pointer;
 }
 .name{
-	cursor: pointer;
-	color:  #f442df;
-	font-size:50px;
-	font-family: 'Lobster', cursive;
+		cursor: pointer;
+		color:  #f442df;
+		font-size:50px;
+		font-family: 'Lobster', cursive;
 }
 
 #home {
 		 background: url(../images/3.jpg) no-repeat ; 	 
 		 background-size:cover;
-		 /* background-size: 100%,100%; */
 	     width: 100%;
 		 display: fixed;
 		 border-radius:8px;
@@ -114,7 +113,7 @@ h5 {
 		color: #f442df;
 		font-family: roboto;
 		font-size:20px;
-	    font-weight:800;
+		font-weight:800;
 	
 	}
  
@@ -153,11 +152,11 @@ h5 {
 
 
 .card-group {
-	padding:40px;
-	border-radius:10px;
-	background-color:#00bfff;
-	opacity:0.8;
-	font-family: roboto;
+		padding:40px;
+		border-radius:10px;
+		background-color:#00bfff;
+		opacity:0.8;
+		font-family: roboto;
 }
 .card{
 		position: relative;
@@ -193,11 +192,11 @@ h6{
 	margin:auto;	
 }
 .item{
-	vertical-align:top;
-	display: inline-block;
-	text-align:center;
-	width:15%;	
-	margin:4.5%;
+		vertical-align:top;
+		display: inline-block;
+		text-align:center;
+		width:15%;	
+		margin:4.5%;
 
 }
 .square{
@@ -261,13 +260,13 @@ p {
 	
 	}
 .btn,.btn1{
-	width:120px;
-	height:40px;
-	font-size:20px;
-	border-radius:8px;
-	margin: 3px;
-	font-family: roboto;
-}
+		width:120px;
+		height:40px;
+		font-size:20px;
+		border-radius:8px;
+		margin: 3px;
+		font-family: roboto;
+	}
 			
 	
 		/*======
