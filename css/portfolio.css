@@ -1,5 +1,5 @@
 body{
-	 background: lightblue url(../images/fa.jpg) no-repeat center;
+	  background: lightblue url(../images/fa.jpg) no-repeat center; 
 	 background-attachment: fixed; 
 	 max-width: 100%;
 	 display: block;
@@ -212,7 +212,7 @@ h6{
 
 .btn2{
 	display:block;
-	color:  #f442df;
+	color:  blue;
 	font-weight:600;
 	font-size:20px;
 	font-family:roboto;
